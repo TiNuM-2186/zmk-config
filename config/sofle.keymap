@@ -29,6 +29,8 @@
 &kp LSHFT      &kp Z   &kp X     &kp C     &kp V           &kp B      &kp C_MUTE    &kp C_PP    &kp N    &kp M           &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
                        &kp CLCK  &kp LALT  &mt LGUI MINUS  &kp SPACE  &lt 1 LBKT    &lt 2 RBKT  &kp RET  &mt RGUI EQUAL  &kp RALT   &kp RCTRL
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp 0 0>;
         };
 
         lower_layer {
